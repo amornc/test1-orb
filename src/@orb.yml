@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Test1 sample orb for zeabix-cloud-native.
+  Test1 sample orb for zeabix-cloud-native. If your orb requires other orbs, you can import them like this. Otherwise remove the "orbs" stanza.
 
 display:
   home_url: "https://www.zeabix.com/"
