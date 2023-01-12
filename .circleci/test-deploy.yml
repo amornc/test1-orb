@@ -19,6 +19,9 @@ jobs:
       - test1/add:
           NumA: 4
           NumB: 5
+      - test1/del:
+          NumA: 456
+          NumB: 545645
 workflows:
   test-deploy:
     jobs:
