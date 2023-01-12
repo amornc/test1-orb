@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Test1 sample orb.
+  Test1 sample orb for zeabix-cloud-native.
 
 display:
   home_url: "https://www.zeabix.com/"
