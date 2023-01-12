@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       # Run your orb's commands to validate them.
-      - test1/add:
+      - test1/hello:
           NumA: 4
           NumB: 5
 workflows:
