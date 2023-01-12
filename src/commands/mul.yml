@@ -14,4 +14,4 @@ steps:
         PARAM_NUMA: <<parameters.NumA>>
         PARAM_NUMB: <<parameters.NumB>>
       name: Adding <<parameters.NumA>> * <<parameters.NumB>>
-      command: <<include(scripts/del.sh)>>
+      command: <<include(scripts/mul.sh)>>
