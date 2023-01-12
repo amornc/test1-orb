@@ -22,6 +22,12 @@ jobs:
       - test1/del:
           NumA: 456
           NumB: 545645
+      - test1/mul:
+          NumA: 423456
+          NumB: 545646785
+      - test1/div:
+          NumA: 423456
+          NumB: 2
 workflows:
   test-deploy:
     jobs:

@@ -1,0 +1,17 @@
+description: >
+  This is orb test name test1.
+
+parameters:
+  NumA:
+    type: integer
+    description: "First number"
+  NumB:
+    type: integer
+    description: "Second number"
+steps:
+  - run:
+      environment:
+        PARAM_NUMA: <<parameters.NumA>>
+        PARAM_NUMB: <<parameters.NumB>>
+      name: Adding <<parameters.NumA>> / <<parameters.NumB>>
+      command: <<include(scripts/del.sh)>>
