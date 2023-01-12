@@ -1,9 +1,8 @@
 version: 2.1
 
 description: >
-  Test1 sample orb description
+  Test1 sample orb.
 
-# This information will be displayed in the orb registry and is not mandatory.
 display:
   home_url: "https://www.zeabix.com/"
   source_url: "https://github.com/amornc/test1-orb"
