@@ -16,7 +16,9 @@ jobs:
     steps:
       - checkout
       # Run your orb's commands to validate them.
-      - test1/greet
+      - test1/add:
+          NumA: 4
+          NumB: 5
 workflows:
   test-deploy:
     jobs:
@@ -39,4 +41,4 @@ workflows:
             tags:
               only: /^v[0-9]+\.[0-9]+\.[0-9]+$/
 
-# VS Code Extension Version: 1.4.0
+# VS Code Extension Version: 1.5.0

@@ -1,0 +1,17 @@
+description: >
+  This is orb test.
+
+parameters:
+  NumA:
+    type: interger
+    description: "First number"
+  NumB:
+    type: interger
+    description: "Second number"
+steps:
+  - run:
+      environment:
+        PARAM_NUMA: <<parameters.NumA>>
+        PARAM_NUMB: <<parameters.NumB>>
+      name: Adding <<parameters.NumA>> + <<parameters.NumB>>
+      command: <<include(scripts/add.sh)>>
