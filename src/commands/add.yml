@@ -3,10 +3,10 @@ description: >
 
 parameters:
   NumA:
-    type: interger
+    type: integer
     description: "First number"
   NumB:
-    type: interger
+    type: integer
     description: "Second number"
 steps:
   - run:
